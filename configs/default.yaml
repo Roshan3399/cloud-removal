@@ -1,0 +1,26 @@
+# Training Configuration
+data:
+  clear_dir: "./data/clear"
+  img_size: 256
+  batch_size: 4
+  num_workers: 2
+
+model:
+  in_channels: 3
+  out_channels: 3
+  features: [64, 128, 256, 512]
+
+training:
+  epochs: 50
+  lr: 0.0002
+  device: "cpu"  # Change to "cuda" if GPU available
+  save_interval: 10
+
+loss:
+  lambda_l1: 100
+  lambda_ssim: 10
+  lambda_adv: 1
+
+paths:
+  output_dir: "./outputs"
+  checkpoint_dir: "./checkpoints"
