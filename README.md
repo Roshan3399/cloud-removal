@@ -74,4 +74,4 @@ Built with guidance from the open-source remote sensing community. Data sources:
 
 Status: Architecture validated on synthetic data. Integrating real LISS-IV scenes from Bhoonidhi.
 
-Contact: [your email] | [your Twitter/LinkedIn]
+Contact: roshan114400@gmail.com | www.linkedin.com/in/roshan-mohanvel-b7894a3a1
